@@ -93,4 +93,10 @@ b= notas.findIndex(x=> x>9)
 c= nomes.includes("Lucas")
 // console.log(c)
 
+//  19) Utilize o método REDUCE para calcular a média das notas.
+// d= notas.reduce()
 
+console.log(notas)
+n= notas.reduce((acumulador, elemento, i)=> {
+    console.log(acumulador,elemento, "repetição :" + i)
+    return acumulador+elemento},)
