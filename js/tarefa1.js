@@ -92,3 +92,5 @@ b= notas.findIndex(x=> x>9)
 //  18) Utilize o método INCLUDES para verificar se o aluno "Lucas" está na lista
 c= nomes.includes("Lucas")
 // console.log(c)
+
+
