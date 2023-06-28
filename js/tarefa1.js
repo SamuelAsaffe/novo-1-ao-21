@@ -84,3 +84,11 @@ notas.forEach( (x,i) => {let aprov
 
 a= nomes.indexOf("Lucas")
 // console.log("o lucas está no index "+a)
+
+// 17) Utilize o método FINDINDEX para localizar o índice da primeira nota acima de 9.0.
+b= notas.findIndex(x=> x>9)
+// console.log(b)
+
+//  18) Utilize o método INCLUDES para verificar se o aluno "Lucas" está na lista
+c= nomes.includes("Lucas")
+// console.log(c)
