@@ -99,8 +99,21 @@ n= notas.reduce((acumulador, elemento)=> {
     return acumulador+elemento
 })
 media= n/notas.length
-console.log(media)
+// console.log(media)
 
 //  20) Utilize o método EVERY para verificar se todas as notas são maiores ou iguais à média.
 
 // notas.every()
+notasEvery = notas.every(function(x){return x > media})
+// console.log(notasEvery)
+
+//  21) Utilize o método SOME para verificar se há notas superiores à media.
+
+notasSome = notas.some(function(x) {return x > media})
+console.log(notasSome)
+
+
+
+
+
+
