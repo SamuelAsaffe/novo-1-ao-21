@@ -94,9 +94,13 @@ c= nomes.includes("Lucas")
 // console.log(c)
 
 //  19) Utilize o método REDUCE para calcular a média das notas.
-// d= notas.reduce()
+// console.log(notas)
+n= notas.reduce((acumulador, elemento)=> {
+    return acumulador+elemento
+})
+media= n/notas.length
+console.log(media)
 
-console.log(notas)
-n= notas.reduce((acumulador, elemento, i)=> {
-    console.log(acumulador,elemento, "repetição :" + i)
-    return acumulador+elemento},)
+//  20) Utilize o método EVERY para verificar se todas as notas são maiores ou iguais à média.
+
+// notas.every()
